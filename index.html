@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  color:black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+a.active {
+  color: #D1884F;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .button1,
+  .button2 {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .image {
+    grid-row: 2; 
+    margin-top: 20px; 
+  }
+  
+}
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 100px;
+}
+
+img {
+  max-width: 80%;
+  max-height:80%;
+}
+
+.text {
+  font-size: 10px;
+}
+.header {
+  background-color: white;
+  padding:0.5%;
+  text-align: center;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 10%;
+}
+.container {
+  
+  width: 100%;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+.button1,.button2 {
+  background-color: white; 
+  color:#008AAA ; 
+  border: 2px solid #008AAA;
+}
+
+.button1,.button2:hover {
+  background-color: #008AAA;
+  color: white;
+}
+body {
+    font-family: 'Poppins';font-size: 30px;
+}
+
+</style>
+<body>
+
+    <div class="header">
+      </div>
+<div class="navbar">
+ 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact Me</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> About Me</a>
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+</div>
+<br>
+<div class="container">
+    <div class="text">
+       <h4 style="color: #3BBADB;">Welcom to my site</h4>
+       <br><br>
+      <h1 style="color: #008AAA;">Hi ,I'm Islam Msalam,Take a look to my</h1><h1 style="color:#D1884F ;">portfolio.</h1>
+      <br><br>
+      <p>Hi,I'm Islam Msalam ,forth year student at an-najah national university ,studing computer science 
+        in the College of Engineering and Information Technology GPA=3.17,I'm from talfeet-Nablus .
+        I always like to learn new things and gain experience.you can see my projects and give me feedback.<pre style="color: #3BBADB;">See More..</pre>
+    </p>
+    <br><br><br>
+    <div> 
+        <button class="button1">Hire Me!</button>
+        <button class="button2">See My Projects</button>
+    </div>
+    </div>
+  
+<div class="image">
+    <img src="pic.jpg">
+  </div>
+  </div>
+  
+  <div class="footer">
+ 
+  </div>
+</body>
+</html> 
